@@ -10,18 +10,6 @@ export default function Home() {
       setDarkTheme(!darkTheme);
     };
   
-    const buttonNames = [
-      'Grade 9 SEC A',
-      'Grade 9 SEC B',
-      'Grade 10 SEC A',
-      'Grade 10 SEC B',
-      'Grade 11 SEC A',
-      'Grade 11 SEC B',
-      'Grade 11 SEC C',
-      'Grade 12 SEc A',
-      'Grade 12 SEC B',
-      'Grade 12 SEC C',
-    ];
   return (
     <div
     className={`${
@@ -48,16 +36,71 @@ export default function Home() {
 
     <div className="container mx-auto py-8">
       <div className="grid grid-cols-2 gap-4">
-        {buttonNames.map((name, index) => (
+     
           <button
-            key={index}
             className={`${
               darkTheme ? 'bg-gray-700' : 'bg-blue-500'
             } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
           >
-            {name}
+            Grade9secB
           </button>
-        ))}
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade11secA
+          </button>
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade10secA
+          </button>
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade10secB
+          </button>
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade10secB
+          </button>
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade11secB
+          </button>
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade9secA
+          </button>
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade12secA
+          </button>
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade12secB
+          </button>
+
       </div>
     </div>
 

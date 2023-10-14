@@ -7,9 +7,9 @@ export default async function handler(
 ) {
   try {
     const result =
-      await sql`CREATE TABLE my_table (
+      await sql`CREATE TABLE Grade9secB(
         id SERIAL PRIMARY KEY,
-        date DATE,
+        date TEXT,
         p1 TEXT,
         p2 TEXT,
         p3 TEXT,
