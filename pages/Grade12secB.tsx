@@ -17,7 +17,7 @@ async function fetchData() {
 }
 
 function Grade9secA() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState<any[] | null>(null);
   const [darkTheme, setDarkTheme] = useState(false);
 
   useEffect(() => {
