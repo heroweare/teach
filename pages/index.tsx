@@ -36,49 +36,7 @@ export default function Home() {
 
     <div className="container mx-auto py-8">
       <div className="grid grid-cols-2 gap-4">
-     
-          <button
-            className={`${
-              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
-            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
-          >
-            Grade9secB
-          </button>
-          <button
-            className={`${
-              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
-            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
-          >
-            Grade11secA
-          </button>
-          <button
-            className={`${
-              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
-            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
-          >
-            Grade10secA
-          </button>
-          <button
-            className={`${
-              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
-            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
-          >
-            Grade10secB
-          </button>
-          <button
-            className={`${
-              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
-            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
-          >
-            Grade10secB
-          </button>
-          <button
-            className={`${
-              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
-            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
-          >
-            Grade11secB
-          </button>
+        <Link href="/Grade9secA">
           <button
             className={`${
               darkTheme ? 'bg-gray-700' : 'bg-blue-500'
@@ -86,6 +44,62 @@ export default function Home() {
           >
             Grade9secA
           </button>
+        </Link>
+        <Link href="/Grade9secB">
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade9secB
+          </button>
+          </Link>
+          <Link href="/Grade10secA">
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade10secA
+          </button>
+          </Link>
+          <Link href="/Grade10secB">
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade10secB
+          </button>
+          </Link>
+          <Link href="/Grade11secA">
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade11secA
+          </button>
+          </Link>
+          <Link href ="/Grade11secB">
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade11secB
+          </button>
+          </Link>
+          <Link href="/Grade11secC">
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade11secC
+          </button>
+          </Link>
+          <Link href="/Grade12secA">
           <button
             className={`${
               darkTheme ? 'bg-gray-700' : 'bg-blue-500'
@@ -93,6 +107,8 @@ export default function Home() {
           >
             Grade12secA
           </button>
+          </Link>
+          <Link href="Grade12secB">
           <button
             className={`${
               darkTheme ? 'bg-gray-700' : 'bg-blue-500'
@@ -100,6 +116,16 @@ export default function Home() {
           >
             Grade12secB
           </button>
+          </Link>
+          <Link href="Grade12secC">
+          <button
+            className={`${
+              darkTheme ? 'bg-gray-700' : 'bg-blue-500'
+            } text-white text-xl font-bold py-4 px-8 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-lg`}
+          >
+            Grade12secC
+          </button>
+          </Link>
 
       </div>
     </div>
